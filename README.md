@@ -13,3 +13,5 @@ Adicionalmente se pide una opción de buscar por un parámetro, pero de forma qu
 
 ![Captura de pantalla del proyecto](https://user-images.githubusercontent.com/69605526/232686118-3746c625-da7f-45b2-a489-e42ac3f7c26c.png)
 
+
+![Captura de pantalla del proyecto](https://user-images.githubusercontent.com/69605526/232687439-fa00b961-b5d5-4f26-9d77-8fe9a93694fa.png)
