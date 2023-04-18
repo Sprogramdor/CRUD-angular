@@ -1,0 +1,36 @@
+<mat-card> 
+    <div style="text-align:center;">
+        <mat-card-title>Modificar Cliente</mat-card-title>
+    </div>   
+    <br>
+    <form [formGroup]="usuarioedit">
+        <mat-form-field class="campos-field">
+            <input matInput  formControlName="cedula" [(ngModel)]="data.cedula">
+        </mat-form-field>
+
+        <mat-form-field class="campos-field">
+            <input matInput placeholder="Nombres" formControlName="nombres"   [(ngModel)]="data.nombres">
+        </mat-form-field>
+
+        <mat-form-field class="campos-field">
+            <input matInput placeholder="Apellidos" formControlName="apellidos"  [(ngModel)]="data.apellidos">
+        </mat-form-field>
+
+        <mat-form-field class="campos-field">
+            <input matInput placeholder="Direccion" formControlName="direccion"  [(ngModel)]="data.direccion">
+        </mat-form-field>
+
+        <mat-form-field class="campos-field">
+            <input matInput placeholder="Edad" formControlName="edad"  [(ngModel)]="data.edad">
+        </mat-form-field>
+
+        <input type="hidden"  formControlName="id" [(ngModel)]="data.id">
+
+        
+     
+
+        <button mat-raised-button color="primary" [disabled] = "!usuarioedit.valid" (click)="onSubmit()">Aceptar</button>  
+        <button mat-raised-button color="warn" (click)="cancelar()">Cancelar</button>      
+    </form>
+    
+</mat-card>
